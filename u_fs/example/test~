@@ -1,0 +1,4 @@
+#! /bin/sh
+dd bs=1K count=10K if=/dev/zero of=/tmp/diskimg
+make clean
+make
